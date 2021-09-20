@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(238, 95, 124, 0.801);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header_div{
+    background-color: darkgray;
+    color:darkred;
+}
+.header_div img{
+    width:100px;
+}
+.main_div{
+    background:darksalmon;
+    padding:10px;
+    margin-top: 20px;
+    border:10px solid white;
+}
+#camera,#result{
+    width:300px;
+    height:300px;
+    border:10px solid wheat;
+    box-shadow:5px 5px 18px white;
+    margin-bottom: 20px;
+}
+.main_div label{
+    background-color: whitesmoke;
+    width: 300px;
+    margin-bottom: 10px;
+    box-shadow:5px 5px 18px white;
+    padding:5px;
+}
+.footer_div img{
+ width: 50px;
+}
+.footer_div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.footer_div p{
+    background-color: whitesmoke;
+    color:wheat;
+    width:700px;
+    padding:5px;
+    box-shadow:5px 5px 18px white;
+}
+.footer{
+    position:fixed;
+    color:darkgrey;
+    bottom:0;
+    width:100%;
+    background-color: white;
+    line-height: 3;
+    text-align:center;
+}
+#obj_name{
+    color:tomato;
+}
